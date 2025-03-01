@@ -216,8 +216,10 @@
 
         let randomNumbers = generateRandomNumbers();
         function main() {
+            document.getElementById("start").remove();
+            document.getElementById("loading").textContent = "Ładowanie pytań...";
             getQuestions(function () {
-                document.getElementById("start").remove();
+                document.getElementById("loading").remove();
                 document.getElementById("questionCounterBlock").style.visibility = "visible";
                 generateQuestion(questions[randomNumbers[0]], randomNumbers[0]);
                 currentIndex += 1;
@@ -243,6 +245,8 @@
 
 <div class="start" id="start">
         <button class="roboto-header" onclick="main()">Rozpocznij test <br> (90 pytań) <br> <br>POWODZONKA!</button>
+</div>
+<div class="loading roboto-header" id="loading">
 </div>
 <div id = "questionBlockMain">
     <div id="questionBlock" class="questionBlock">
