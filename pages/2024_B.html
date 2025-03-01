@@ -23,13 +23,9 @@
         const FILENAME = "2024_B.txt"
 
         function getQuestions(callback) {
-            document.getElementById("loading").textContent = "Ładowanie pytań...";
-            document.getElementById("start").style.visibility = "hidden";
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status ==200) {
-                    document.getElementById("start").style.visibility = "visible";
-                    document.getElementById("loading").remove();
                     let text = this.responseText;
                     for(let i = 1; i <= QUESTION_NUMBER; i++){
                         /*wyszukanie pytania o danym numerze*/
@@ -220,17 +216,16 @@
 
         let randomNumbers = generateRandomNumbers();
         function main() {
-
-            //getQuestions(function () {
+            getQuestions(function () {
                 document.getElementById("start").remove();
                 document.getElementById("questionCounterBlock").style.visibility = "visible";
                 generateQuestion(questions[randomNumbers[0]], randomNumbers[0]);
                 currentIndex += 1;
-            //});
+            });
         };
     </script>
 </head>
-<body onload=getQuestions()>
+<body>
 <!-- Header -->
 <div class="header roboto-header">
     <div class="home">
@@ -248,8 +243,6 @@
 
 <div class="start" id="start">
         <button class="roboto-header" onclick="main()">Rozpocznij test <br> (90 pytań) <br> <br>POWODZONKA!</button>
-</div>
-<div class="loading roboto-header" id="loading">
 </div>
 <div id = "questionBlockMain">
     <div id="questionBlock" class="questionBlock">
