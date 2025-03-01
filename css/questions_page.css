@@ -54,6 +54,7 @@ body {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 .start button {
     background-color: rgb(25, 13, 136);
@@ -137,6 +138,15 @@ body {
     border-radius: 0.2em;
     line-height: 1.4em;
 }
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1.5em;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 
 
 /* iPad 10th gen 10"9*/
@@ -181,7 +191,7 @@ body {
 
 
 /* iPhone 13 */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     .header {
         padding: 1.5em;
         font-size: 1.4em;
