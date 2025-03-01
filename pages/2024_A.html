@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egzamin 2024 wersja A</title>
+    <link rel="stylesheet" href="../css/questions_page.css">
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FUNKCJE JS-->
+    <script>
+        let questions = [];
+        let correctAnswer;
+        let currentIndex = 0;
+        let correctAnswers = 0;
+        const QUESTION_NUMBER = 90;
+        const FILENAME = "2024_A.txt"
+
+        function getQuestions(callback) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status ==200) {
+                    let text = this.responseText;
+                    for(let i = 1; i <= QUESTION_NUMBER; i++){
+                        /*wyszukanie pytania o danym numerze*/
+                        let regex = new RegExp(`^${i}\\.(.*?)(?=^${i+1}\\.)`, "gsm");
+                        if(i == QUESTION_NUMBER){
+                            regex = new RegExp(`^${i}\\.(.*)`, "gsm");
+                        }
+
+                        let found = text.match(regex);
+                        found = found[0].replace("/\r\n/g", " ");
+
+                        //Przypisanie do tablicy pytania na konkrenty indeks
+                        questions[i] = found;
+                    }
+                    callback(); // Wywołujemy funkcję dopiero po wczytaniu danych
+                };
+            }
+            xhttp.open("GET", "../resources/" + FILENAME, true);
+            xhttp.send();
+        }
+
+        function generateQuestion(question, i) {
+
+            // Pobranie diva, w którym będzie umieszczone pytanie i odpowiedzi
+            let questionBlock = document.getElementById("questionBlock");
+            // Tworzenie pytania
+            const questionText = document.createElement("p");
+            questionText.className = "questionTextPar roboto-header";
+            let regexQuestion = new RegExp(`^${i}\\.(.*?)(?=:):`, "gsm");
+            questionText.textContent = question.match(regexQuestion);
+
+            let regexA = new RegExp(`^a\\)(.*?)(?=^b\\))`, "gsm");
+            let regexB= new RegExp(`^b\\)(.*?)(?=^c\\))`, "gsm");
+            let regexC = new RegExp(`^c\\)(.*?)(?=^d\\))`, "gsm");
+            let regexD = new RegExp(`^d\\)(.*)`, "gsm");
+
+            let a = question.match(regexA)[0];
+            let b = question.match(regexB)[0];
+            let c = question.match(regexC)[0];
+            let d = question.match(regexD)[0];
+
+            // Tworzenie przycisków z odpowiedziami
+            const answers = [a, b, c, d];
+
+            for(let i = 0; i < answers.length; i++) {
+                if(answers[i].search(/\*/) != -1) {
+                    correctAnswer = i;
+                }
+                else {
+                    answers[i] = answers[i].trim().slice(0, -1);
+                }
+            }
+
+            // Kontener na przyciski
+            const buttonContainer = document.createElement("div");
+            buttonContainer.className = "buttonContainer";
+            let selectedButton = null; // Przechowuje aktualnie wybrany przycisk
+
+            answers.forEach(answer => {
+                const button = document.createElement("button");
+                if(answer.search(/\*/) != -1){
+                    button.id = correctAnswer;
+                    let answerTrimmed = answer.trim().slice(0, -2);
+                    button.textContent = answerTrimmed;
+                }else{
+                    button.textContent = answer;
+                }
+                button.className = "answerButton roboto-header";
+                button.style.cursor = "pointer";
+                button.onclick = function () {
+                    // Usunięcie zaznaczenia z poprzedniego przycisku
+                    if (selectedButton) {
+                        selectedButton.style.backgroundColor = "";
+                        selectedButton.style.color = "";
+                    }
+                    // Zaznaczenie nowego przycisku
+                    selectedButton = button;
+                    button.style.backgroundColor = "rgb(25, 13, 136)";
+                    button.style.color = "white";
+                };
+                buttonContainer.appendChild(button);
+            });
+
+
+            // Tworzenie bloku na podsumowanie
+            const summaryBlock = document.createElement("div");
+            summaryBlock.className = "summaryBlock roboto-header";
+            summaryBlock.id = "summaryBlock";
+
+            // Tworzenie przycisku "Następne pytanie"
+            const nextButton = document.createElement("button");
+            nextButton.className = "nextButton roboto-header"
+            if(currentIndex == QUESTION_NUMBER-1){
+                nextButton.textContent = "Zakończ test";
+                nextButton.style.backgroundColor = "rgb(89, 33, 126)";
+            }
+            else{
+                nextButton.textContent = "Następne pytanie";
+            }
+
+            nextButton.style.border = "none";
+            nextButton.style.cursor = "pointer";
+
+            nextButton.onclick = function () {
+                questionBlock.remove();
+                //document.getElementById("questionBlockMain").textContent = correctAnswers + "/" + QUESTION_NUMBER;
+                if(currentIndex == QUESTION_NUMBER) {
+                    document.getElementById("questionBlockMain").appendChild(summaryBlock);
+                    let percentage = Math.round(correctAnswers/QUESTION_NUMBER*100, 2);
+                    summaryBlock.textContent = "WYNIK: " + correctAnswers + "/" + QUESTION_NUMBER + "\n" + percentage + "%";
+                    summaryBlock.setAttribute('style', 'white-space: pre;');
+                    if(percentage > 60) {
+                        summaryBlock.style.border = "solid 0.3em green";
+                    }else {
+                        summaryBlock.style.border = "solid 0.3em red";
+                    }
+                }
+
+                questionBlock = document.createElement("div");
+                questionBlock.className = "questionBlock";
+                questionBlock.id = "questionBlock";
+                document.getElementById("questionBlockMain").appendChild(questionBlock);
+                if(currentIndex <= QUESTION_NUMBER-1){
+                    generateQuestion(questions[randomNumbers[currentIndex]], randomNumbers[currentIndex]);
+                    currentIndex += 1;
+                }
+                    
+                
+                document.getElementById("questionCounterBlock").textContent = currentIndex + "/" + QUESTION_NUMBER;
+            }
+
+            // Tworzenie przycisku "Potwierdź odpowiedź"
+            const confirmButton = document.createElement("button");
+            confirmButton.className = "confirmButton roboto-header"
+            confirmButton.textContent = "Potwierdź odpowiedź";
+
+            confirmButton.style.border = "none";
+            confirmButton.style.cursor = "pointer";
+
+            confirmButton.onclick = function () {
+                if (selectedButton) {
+                    if(selectedButton.id == correctAnswer){
+                        selectedButton.style.backgroundColor = "green";
+                        correctAnswers += 1;
+                    }
+                    else{
+                        selectedButton.style.backgroundColor = "red";
+                        let correctAnswerButton = document.getElementById(correctAnswer);
+                        correctAnswerButton.style.backgroundColor = "green";
+                        correctAnswerButton.style.color = "white"; 
+                    }
+                    document.querySelectorAll(".buttonContainer button").forEach(button => {
+                        button.disabled = "true";
+                    });
+
+                    questionBlock.replaceChild(nextButton, confirmButton);
+                } 
+                else {
+                    alert("Najpierw wybierz odpowiedź!");
+                }
+            };
+            // Dodanie elementów do bloku pytania
+
+
+            questionBlock.appendChild(questionText);
+            questionBlock.appendChild(buttonContainer);
+            questionBlock.appendChild(confirmButton);
+        };
+
+        function generateRandomNumbers() {
+            // Tworzymy tablicę z liczbami od 1 do QUESTION_NUMBER
+            let numbers = [];
+            for (let i = 1; i <= QUESTION_NUMBER; i++) {
+                numbers.push(i);
+            }
+
+            // Algorytm Fishera-Yatesa do losowego permutowania tablicy
+            for (let i = numbers.length - 1; i > 0; i--) {
+                // Losowanie indeksu od 0 do i
+                let j = Math.floor(Math.random() * (i + 1));
+
+                // Zamiana miejscami elementów
+                [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+            }
+
+            return numbers; // Zwracamy losowo posortowaną tablicę
+        }
+
+        let randomNumbers = generateRandomNumbers();
+        function main() {
+            getQuestions(function () {
+                document.getElementById("start").remove();
+                document.getElementById("questionCounterBlock").style.visibility = "visible";
+                generateQuestion(questions[randomNumbers[0]], randomNumbers[0]);
+                currentIndex += 1;
+            });
+        };
+    </script>
+</head>
+<body>
+<!-- Header -->
+<div class="header roboto-header">
+    <div class="home">
+        <a href="../index.html"><i class="fa fa-home"></i></a>
+    </div>
+    <span>
+        Pytania 2024 wersja A
+    </span>
+</div>
+<div id="questionCounterBlock" class="roboto-header">
+<script>
+    document.getElementById("questionCounterBlock").textContent = "1/" + QUESTION_NUMBER;
+</script>
+</div>
+
+<div class="start" id="start">
+        <button class="roboto-header" onclick="main()">Rozpocznij test <br> (90 pytań) <br> <br>POWODZONKA!</button>
+</div>
+<div id = "questionBlockMain">
+    <div id="questionBlock" class="questionBlock">
+    </div>
+</div>
+
+
+<!-- Footer -->
+
+<!-- <div class="clear"></div> -->
+
+<div class="footer roboto-header">
+    <span>
+        <!--Kotam Cię Kalinko &#10084;*/-->
+        &#10084
+    </span>
+</div>
+
+
+</body>
+</html>

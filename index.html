@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona główna</title>
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script>
+        function switchPage(page){
+            url = "pages/"+page;
+            window.open(url, "_self");
+        }
+    </script>
+
+
+</head>
+
+<body>
+<!-- Header -->
+<div class="header roboto-header">
+    <span>
+        Przygotowanie do egzaminu z przedmiotu<br>
+        POSTĘPOWANIE KWALIFIKACYJNE W SŁUŻBIE CYWILNEJ
+    </span>
+</div>
+
+<!-- Wybór testu z danego roku -->
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2024_A.html')">2024 Wersja A</button>
+</div>
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2024_B.html')">2024 Wersja B</button>
+</div>
+
+<hr class="section-dist">
+
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2023_A.html')">2023 Wersja A</button>
+</div>
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2023_B.html')">2023 Wersja B</button>
+</div>
+
+<hr class="section-dist">
+
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2022_A.html')">2022 Wersja A</button>
+</div>
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2022_B.html')">2022 Wersja B</button>
+</div>
+
+<hr class="section-dist">
+
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2019_A.html')">2019 Wersja A</button>
+</div>
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2019_B.html')">2019 Wersja B</button>
+</div>
+
+<!--<hr class="section-dist">
+
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2020_A.html')">2020 Wersja A</button>
+</div>
+<div class="wybor">
+    <button class="roboto-header" onclick="switchPage('2020_B.html')">2020 Wersja B</button>
+</div>-->
+
+<!-- Footer -->
+
+<div class="clear"></div>
+
+<div class="footer roboto-header">
+    <span>
+        <!--Kotam Cię Kalinko &#10084;*/-->
+        &#10084
+    </span>
+</div>
+
+
+</body>
+</html>

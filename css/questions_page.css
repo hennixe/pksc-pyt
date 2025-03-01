@@ -1,0 +1,223 @@
+/* FONTS */
+.roboto-header {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+/* Actual site */
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+.clear {
+    height: 1.5em
+}
+
+  /* PC */
+.header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    line-height: 2em;
+    background-color: rgb(25, 13, 136);
+    box-shadow: 0em 0.2em 0.2em 0em rgba(16, 9, 87, 0.801);
+    color: white;
+    padding: 1.5em;
+    font-size: 1.6em
+}
+.home {
+    position: absolute;
+    font-size: 1.3em
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    background-color: rgb(25, 13, 136);
+    box-shadow: 0em 0.2em 0.2em 0em rgba(16, 9, 87, 0.801);
+    color: white;
+    font-size: 1.6em
+}
+.start {
+    text-align: center;
+    width: 100%;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.start button {
+    background-color: rgb(25, 13, 136);
+    border: none;
+    border-radius: 0.2em;
+    color: white;
+    font-size: 1.5em;
+    padding: 2em; 
+}
+.start button:active {
+    background-color: rgb(89, 33, 126);
+}
+.questionBlock {
+    padding-top: 3em;
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.questionTextPar {
+    font-size: 1em;
+    text-align: left;
+}
+.answerButton {
+    text-align: left;
+    padding: 0.7em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    width: 100%;
+    border: solid 0.2em black;
+    border-radius: 0.4em;
+}
+.confirmButton {
+    padding: 1em;
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.4em;
+    background-color: rgb(25, 13, 136);
+    color: white;
+    margin-top: 2em;
+}
+.nextButton {
+    padding: 1em;
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.4em;
+    background-color: rgb(25, 13, 136);
+    color: white;
+    margin-top: 2em;
+}
+#questionCounterBlock {
+    background-color: rgb(41, 133, 194);
+    color: white;
+    font-size: 1em;
+    visibility: hidden;
+    width: 100%;
+    margin: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    text-align: center;
+    box-shadow: 0em 0.2em 0.2em 0em rgba(33, 89, 163, 0.801);
+
+}
+.summaryBlock {
+    width: 55%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1.5em;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(25, 13, 136);
+    color: white;
+    text-align: center;;
+    padding: 1.5em;
+    border-radius: 0.2em;
+    line-height: 1.4em;
+}
+
+
+/* iPad 10th gen 10"9*/
+@media only screen and (max-width: 900px) {
+    .header {
+        padding: 1.5em;
+        font-size: 2em
+    }
+    .home {
+        font-size: 1.6em
+    }
+    .footer {
+        font-size: 2em;
+        padding: 0.3em;
+    }
+    .clear {
+        height: 3em
+    }
+    .start button {
+        font-size: 2em;
+        padding: 2em; 
+    }
+    .questionTextPar {
+        font-size: 1.3em;
+    }
+    .answerButton {
+        font-size: 1.2em;
+    }
+    .confirmButton {
+        font-size: 1.3em;
+    }
+    .nextButton {
+        font-size: 1.3em;
+    }
+    #questionCounterBlock {
+        font-size: 1.3em;
+    }
+    .summaryBlock {
+        font-size: 2em;
+    }
+}
+
+
+/* iPhone 13 */
+@media only screen and (max-width: 400px) {
+    .header {
+        padding: 1.5em;
+        font-size: 1.4em;
+    }
+    .home {
+        font-size: 1.4em
+    }
+    .footer {
+        font-size: 1.4em;
+        padding: 0.2em;
+    }
+    .clear {
+        height: 0.5em
+    }
+    .start button {
+        font-size: 1.4em;
+        padding: 1.8em; 
+    }
+    .questionTextPar {
+        font-size: 0.95em;
+    }
+    .answerButton {
+        font-size: 0.8em;
+    }
+    .confirmButton {
+        font-size: 0.9em;
+        padding: 0.8em;
+    }
+    .nextButton {
+        font-size: 0.9em;
+        padding: 0.8em;
+    }
+    #questionCounterBlock {
+        font-size: 1em;
+    }
+    .summaryBlock {
+        font-size: 1.4em;
+    }
+}
