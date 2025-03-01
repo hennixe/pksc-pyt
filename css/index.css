@@ -106,8 +106,8 @@ body {
 /* iPhone 13 */
 @media only screen and (max-width: 400px) {
     .header {
-        padding: 1.5em;
-        font-size: 1.4em;
+        padding: 1.2em;
+        font-size: 1em;
         content: 'aaa';
     }
     .header span {
