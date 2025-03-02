@@ -52,7 +52,7 @@ głosu w takich głosowaniach.
 9. Do szczególnych kategorii danych osobowych nie zalicza się:
 a) danych o stanie zdrowia,
 b) przynależności do związku zawodowego,
-c) numeru PESEL, *
+c) numeru PESEL,*
 d) światopoglądu.
 10. Zbieranie od osoby fizycznej zbyt szerokiego zakresu danych osobowych, które nie są
 adekwatne do celu przetwarzania, stanowi naruszenie zasady:
@@ -84,7 +84,7 @@ d) podlega kontroli Prezesa Rady Ministrów.
 dane osobowe w rozumieniu RODO właściwy jest :
 a) Prezes Urzędu Ochrony Danych Osobowych,
 b) Prezes Rady Ministrów,
-c) sąd administracyjny, *
+c) sąd administracyjny,*
 d) sąd powszechny.
 15. Umorzenie postępowania sprawdzającego następuje w przypadku:
 a) zmiany imienia i nazwiska osoby sprawdzanej,
@@ -171,7 +171,7 @@ d) uchwała Rady Ministrów wydawana na podstawie ustawy o służbie cywilnej.
 a) nie wcześniej niż po upływie 6 miesięcy od nawiązania stosunku pracy i nie później niż
 2 tygodnie przed upływem okresu, na który została zawarta umowa o pracę ocenianego,
 b) nie wcześniej niż po upływie 8 miesięcy od nawiązania stosunku pracy i nie później niż
-miesiąc przed upływem okresu, na który została zawarta umowa o pracę ocenianego, *
+miesiąc przed upływem okresu, na który została zawarta umowa o pracę ocenianego,*
 c) nie wcześniej niż po upływie 10 miesięcy od nawiązania stosunku pracy z pracownikiem,
 którego dotyczy pierwsza ocena,
 d) pomiędzy 9 a 11 miesiącem pracy pracownika, którego dotyczy pierwsza ocena.
@@ -182,7 +182,7 @@ b) w terminie 21 dni od dnia nawiązania z ocenianym stosunku pracy,*
 c) w terminie 30 dni od dnia nawiązania z ocenianym stosunku pracy,
 d) w terminie 60 dni od dnia nawiązania z ocenianym stosunku pracy.
 27. Zarząd województwa składa się z:
-a) 5 osób, w tym marszałka, wicemarszałka lub 2 wicemarszałków i pozostałych członków, *
+a) 5 osób, w tym marszałka, wicemarszałka lub 2 wicemarszałków i pozostałych członków,*
 b) 4 osób, w tym marszałka i nie więcej niż 3 wicemarszałków,
 c) 3 osób, w tym marszałka, wicemarszałka lub 2 wicemarszałków,
 d) 3 osób, w tym marszałka i obligatoryjnie 2 wicemarszałków.
@@ -247,7 +247,7 @@ c) ministra właściwego do spraw klimatu,*
 d) Ministra Spraw Wewnętrznych i Administracji.
 38. Kierowanie sprawami obronności w województwie należy do:
 a) marszałka województwa,
-b) wojewody, *
+b) wojewody,*
 c) Szefa Wojskowego Centrum Rekrutacji,
 d) dowódcy jednostki wojskowej dyslokowanej w danym województwie.
 39. W celu zapewnienia skuteczności działań służących ochronie zdrowia publicznego
@@ -493,7 +493,7 @@ d) nie może przyjmować wartości ujemnych.
 75. Obligacje Skarbu Państwa:
 a) są denominowane wyłącznie w złotym,
 b) są krótkoterminowym papierem wartościowym,
-c) są instrumentem finansowym służącym finansowaniu potrzeb pożyczkowych państwa, *
+c) są instrumentem finansowym służącym finansowaniu potrzeb pożyczkowych państwa,*
 d) są emitowane przez Narodowy Bank Polski.
 76. Do strefy euro należy:
 a) Republika Bułgarii,
