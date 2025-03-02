@@ -12,7 +12,7 @@ b) za każde przekroczenie uprawnień lub niedopełnienie obowiązków – zaró
 jak i nieumyślne – niezależnie od tego, czy jest to działanie na szkodę interesu
 publicznego czy prywatnego,
 c) zarówno za przekroczenie uprawnień, jak i za niedopełnienie obowiązków – o ile jest to
-działanie na szkodę interesu publicznego lub prywatnego, *
+działanie na szkodę interesu publicznego lub prywatnego,*
 d) zarówno za przekroczenie uprawnień, jak i za niedopełnienie obowiązków – o ile jest to
 działanie stanowiące rażące naruszenie prawa.
 3. Odpowiedzialność przewidziana przez Ustawę z dnia 20 stycznia 2011 r.
@@ -20,7 +20,7 @@ o odpowiedzialności majątkowej funkcjonariuszy publicznych za rażące narusze
 prawa – o ile funkcjonariusz publiczny dobrowolnie nie spełni świadczenia – jest
 następstwem:
 a) prawomocnego wyroku sądu powszechnego w wyniku powództwa wytoczonego przez
-prokuratora, *
+prokuratora,*
 b) prawomocnego wyroku sądu powszechnego w wyniku powództwa wytoczonego przez
 podmiot, który poniósł szkodę w wyniku rażącego naruszenia prawa,
 c) prawomocnego wyroku sądu administracyjnego orzekającego o rażącym naruszeniu
@@ -47,7 +47,7 @@ przypadku, gdy dochodzi do tej odpowiedzialności.
 a) jednoinstancyjna – z możliwością złożenia skargi do wojewódzkiego sądu
 administracyjnego,
 b) dwuinstancyjna – organem odwoławczym od orzeczeń komisji dyscyplinarnej urzędu
-jest Wyższa Komisja Dyscyplinarna Służby Cywilnej, *
+jest Wyższa Komisja Dyscyplinarna Służby Cywilnej,*
 c) dwuinstancyjna – organem odwoławczym od orzeczeń komisji dyscyplinarnej urzędu
 jest dyrektor generalny,
 d) dwuinstancyjna – organem odwoławczym od orzeczeń komisji dyscyplinarnej urzędu
@@ -94,12 +94,12 @@ a) wspomaga działalność legislacyjną administracji rządowej oraz Sejmu i Se
 b) zapewnia koordynację działalności legislacyjnej Rady Ministrów, Prezesa
 Rady Ministrów oraz Prezydenta RP,
 c) zapewnia koordynację działalności legislacyjnej Rady Ministrów, Prezesa
-Rady Ministrów i innych organów administracji rządowej, *
+Rady Ministrów i innych organów administracji rządowej,*
 d) prowadzi aplikację prawodawczą oraz działalność edukacyjną i szkoleniową polegającą
 na upowszechnianiu i popularyzowaniu wiedzy o legislacji.
 13. Zgodnie z Konstytucją RP działalność samorządu terytorialnego podlega nadzorowi
 z punktu widzenia:
-a) legalności, *
+a) legalności,*
 b) celowości,
 c) gospodarności,
 d) żadne z powyższych.
@@ -122,7 +122,7 @@ d) może nie być powołany żaden wiceprezes Rady Ministrów.*
 a) przez Sejm na sześć lat,
 b) przez Sejm za zgodą Senatu na sześć lat,
 c) przez Sejm na pięć lat,
-d) przez Sejm za zgodą Senatu na pięć lat. *
+d) przez Sejm za zgodą Senatu na pięć lat.*
 18. Nadzór nad działalnością Prezesa Urzędu Ochrony Konkurencji i Konsumentów
 sprawuje:
 a) minister właściwy do spraw gospodarki,
@@ -254,18 +254,18 @@ c) Prezes Rady Ministrów,
 d) szef Centrum Analiz Strategicznych.
 37. Zwierzchnictwo nad administracją zespoloną sprawuje:
 a) Prezes Rady Ministrów,
-b) wojewoda, *
+b) wojewoda,*
 c) regionalna izba obrachunkowa,
 d) minister właściwy do spraw administracji.
 38. W rozumieniu Kodeksu postępowania administracyjnego organem wyższego
 stopnia w stosunku do jednostek samorządu terytorialnego jest:
 a) regionalna izba obrachunkowa,
 b) jednostka nadrzędna,
-c) samorządowe kolegium odwoławcze, *
+c) samorządowe kolegium odwoławcze,*
 d) wojewoda.
 39. Akty prawa miejscowego wydają:
 a) organy administracji zespolonej,
-b) organy administracji niezespolonej, *
+b) organy administracji niezespolonej,*
 c) zakłady administracyjne,
 d) minister właściwy do spraw administracji.
 40. Kodeks postępowania administracyjnego normuje postępowanie:
@@ -273,7 +273,7 @@ a) spraw karnych skarbowych,
 b) spraw należących do urzędów konsularnych,
 c) podległości służbowej pracowników administracji publicznej,
 d) rozstrzygania sporów o właściwość między organami jednostek samorządu
-terytorialnego i organami administracji rządowej. *
+terytorialnego i organami administracji rządowej.*
 41. W postępowaniu administracyjnym ponaglenie:
 a) służy stronie, jeżeli postępowanie jest prowadzone dłużej, niż jest to niezbędne do
 załatwienia sprawy,*
@@ -287,13 +287,13 @@ b) wymaga udowodnienia, że uchybienie terminu nastąpiło bez winy,
 c) musi zostać wniesiona w ciągu siedmiu dni od ustania przyczyny uchybienia terminu,*
 d) jest rozpatrywana w ciągu 14 dni od jej otrzymania.
 43. Zażalenie przysługuje na postanowienie:
-a) o odmowie przywrócenia terminu, *
+a) o odmowie przywrócenia terminu,*
 b) o umorzeniu postępowania,
 c) o przywróceniu terminu,
 d) o dopuszczeniu dowodu.
 44. Podanie powinno zawierać co najmniej:
 a) wskazanie osoby, od której pochodzi, żądanie oraz podpis,
-b) wskazanie osoby, od której pochodzi, jej adres, żądanie oraz podpis, *
+b) wskazanie osoby, od której pochodzi, jej adres, żądanie oraz podpis,*
 c) wskazanie osoby, od której pochodzi, jej adres, żądanie, podpis oraz uzasadnienie,
 d) wskazanie osoby, od której pochodzi, jej adres, żądanie, podpis, uzasadnienie oraz
 potwierdzające żądanie dokumenty.
@@ -310,14 +310,14 @@ c) czynności dowodowych przeprowadzonych z urzędu,
 d) faktów powszechnie znanych.
 47. Organ może odstąpić od uzasadnienia decyzji:
 a) w razie nadania jej rygoru natychmiastowej wykonalności,
-b) gdy uwzględnia ona w całości żądanie strony, *
+b) gdy uwzględnia ona w całości żądanie strony,*
 c) w postępowaniu odwoławczym, gdy decyzja uwzględnia w całości odwołanie,
 d) w razie przekazania sprawy do ponownego rozpoznania.
 48. Organ odwoławczy może:
 a) stwierdzić nieważność decyzji, której dotyczyło odwołanie,
 b) wznowić postępowanie administracyjne przed organem pierwszej instancji,
 c) przeprowadzić ponownie i w całości postępowanie wyjaśniające,
-d) uchylić zaskarżoną decyzję w całości i w tym zakresie orzec co do istoty sprawy. *
+d) uchylić zaskarżoną decyzję w całości i w tym zakresie orzec co do istoty sprawy.*
 49. Milczące załatwienie sprawy jest możliwe:
 a) wyłącznie w postępowaniu sądowoadministracyjnym,
 b) zawsze jeżeli przyczyni się do przyspieszenia lub uproszczenia postępowania,
@@ -333,11 +333,11 @@ d) porozumienia międzygminne.
 a) podatek od środków transportowych,
 b) opłata reklamowa,
 c) podatek leśny,
-d) opłata emisyjna. *
+d) opłata emisyjna.*
 52. Organem orzekającym w sprawach o naruszenie dyscypliny finansów publicznych
 drugiej instancji jest:
 a) Główna Komisja Orzekająca w Sprawach o Naruszenie Dyscypliny Finansów
-Publicznych, *
+Publicznych,*
 b) międzyresortowa komisja przy ministrze właściwym do spraw finansów publicznych,
 c) międzyresortowa komisja przy Ministrze Sprawiedliwości,
 d) komisja orzekająca przy Szefie Kancelarii Prezesa Rady Ministrów.
@@ -351,10 +351,10 @@ d) 60% rocznych przychodów.
 a) Ustawa z dnia 12 kwietnia 2002 r. o ochronie praw pracowniczych,
 b) rozporządzenie ministra właściwego do spraw pracy,
 c) obwieszczenie ministra właściwego do spraw pracy,
-d) ustawa budżetowa. *
+d) ustawa budżetowa.*
 55. Największy udział w dochodach budżetu państwa mają wpływy z:
 a) podatków dochodowych,
-b) podatków pośrednich, *
+b) podatków pośrednich,*
 c) wpływów niepodatkowych,
 d) wpłat z zysku Narodowego Banku Polskiego.
 56. W myśl ustawy o finansach publicznych wykonywaniem budżetu państwa kieruje:
@@ -384,7 +384,7 @@ c) skierować ofertę poza rynek krajowy,
 d) zaoferować skarbowy papier wartościowy wykupowany powyżej wartości nominalnej.
 61. Minister Finansów opracowuje strategię zarządzania długiem Skarbu Państwa na:
 a) rok budżetowy,
-b) cztery lata, *
+b) cztery lata,*
 c) siedmioletnią perspektywę,
 d) okres wykupu skarbowych papierów wartościowych o najdłuższym horyzoncie
 czasowym.
@@ -428,7 +428,7 @@ d) poleceń wydawanych pisemnie przez przełożonego.
 68. Od oceny okresowej służy – w ciągu siedmiu dni od zapoznania się z oceną –
 sprzeciw do:
 a) bezpośredniego przełożonego,
-b) dyrektora generalnego urzędu, *
+b) dyrektora generalnego urzędu,*
 c) szefa służby cywilnej,
 d) sądu pracy.
 69. Delegowanie to przydzielanie pracownikom:
@@ -439,7 +439,7 @@ d) wszystkie powyższe odpowiedzi są prawidłowe.*
 70. Wskaźnik cen towarów i usług konsumpcyjnych:
 a) mierzy inflację lub deflację cen konsumenta, czyli wzrost lub spadek przeciętnego
 poziomu cen towarów i usług konsumpcyjnych nabywanych przez gospodarstwa
-domowe, *
+domowe,*
 b) mierzy inflację lub deflację cen producenta, czyli wzrost lub spadek przeciętnego
 poziomu cen produkcji przemysłowej,
 c) jest obliczany w Polsce tylko przez Narodowy Bank Polski, który ma dbać o stabilność
@@ -492,7 +492,7 @@ a) jedynie obywatel Rzeczypospolitej Polskiej,
 b) Rzecznik Praw Obywatelskich,
 c) gmina,
 d) cudzoziemiec – o ile nie stawia zarzutu naruszenia przez akt normatywny prawa azylu
-lub statusu uchodźcy. *
+lub statusu uchodźcy.*
 79. Zwierzchnikiem korpusu służby cywilnej jest:
 a) Minister Spraw Wewnętrznych i Administracji,
 b) Rada Ministrów,
