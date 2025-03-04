@@ -26,7 +26,7 @@ body {
     background-color: rgb(25, 13, 136);
     box-shadow: 0em 0.2em 0.2em 0em rgba(16, 9, 87, 0.801);
     color: white;
-    padding: 1.5em;
+    padding: 0.5em;
     font-size: 1.6em
 }
 .home {
@@ -69,7 +69,7 @@ body {
     background-color: rgb(89, 33, 126);
 }
 .questionBlock {
-    padding-top: 3em;
+    padding-top: 1.2em;
     width: 85%;
     position: absolute;
     left: 50%;
@@ -145,7 +145,7 @@ body {
 /* iPad 10th gen 10"9*/
 @media only screen and (max-width: 900px) {
     .header {
-        padding: 1.5em;
+        padding: 0.3em;
         font-size: 2em
     }
     .home {
@@ -186,7 +186,7 @@ body {
 /* iPhone 13 */
 @media only screen and (max-width: 510px) {
     .header {
-        padding: 1.5em;
+        padding: 0.2em;
         font-size: 1.4em;
     }
     .home {
