@@ -27,7 +27,7 @@ body {
     background-color: rgb(25, 13, 136);
     box-shadow: 0em 0.2em 0.2em 0em rgba(16, 9, 87, 0.801);
     color: white;
-    padding: 1.5em;
+    padding: 0.5em;
     font-size: 1.6em
 }
 .footer {
@@ -75,7 +75,7 @@ body {
 /* iPad 10th gen 10"9*/
 @media only screen and (max-width: 900px) {
     .header {
-        padding: 1.5em;
+        padding: 0.3em;
         font-size: 1.6em
     }
     .footer {
@@ -106,7 +106,7 @@ body {
 /* iPhone 13 */
 @media only screen and (max-width: 500px) {
     .header {
-        padding: 1.5em;
+        padding: 0.2em;
         font-size: 1.4em;
         content: 'aaa';
     }
