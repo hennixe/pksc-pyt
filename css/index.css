@@ -31,7 +31,7 @@ body {
     font-size: 1.6em
 }
 .footer {
-    position: sticky;
+    position: fixed;
     bottom: 0;
     text-align: center;
     line-height: 2em;
