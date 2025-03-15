@@ -187,14 +187,14 @@ body {
 @media only screen and (max-width: 510px) {
     .header {
         padding: 0.2em;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     .home {
         font-size: 1.4em
     }
     .footer {
-        font-size: 1.4em;
-        padding: 0.2em;
+        font-size: 1.3em;
+        padding: 0em;
     }
     .clear {
         height: 0.5em
@@ -204,10 +204,10 @@ body {
         padding: 1.8em; 
     }
     .questionTextPar {
-        font-size: 0.95em;
+        font-size: 0.75em;
     }
     .answerButton {
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
     .confirmButton {
         font-size: 0.9em;
@@ -218,7 +218,7 @@ body {
         padding: 0.8em;
     }
     #questionCounterBlock {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .summaryBlock {
         font-size: 1.4em;
